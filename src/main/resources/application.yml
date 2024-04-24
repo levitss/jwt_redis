@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    hikari:
+      password: 0000
+      username: postgres
+      jdbc-url: jdbc:postgresql://127.0.0.1:5433/blog
+      driver-class-name: org.postgresql.Driver
+
+
+
+
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+jwt:
+  issuer: mil@gmail.com
+  secret_key: sss
